@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import SearchResult from '../components/SearchResult.vue'
+import Search from '../components/Search.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'search',
-      component: SearchResult
+      name: 'home',
+      component: Search
     },
   ]
 })
